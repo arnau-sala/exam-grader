@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "macros.h": "c"
+        "macros.h": "c",
+        "respostes.h": "c",
+        "correccio.h": "c"
     }
 }

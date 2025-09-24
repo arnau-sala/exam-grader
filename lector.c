@@ -2,6 +2,12 @@
 #include <stdio.h>
 
 int main(){
+    int correccio[PREGUNTES][RESPOSTES];
+    int respostes[2*PREGUNTES][RESPOSTES];
+    
+    leerPlantilla("plantilla.txt", correccio);
+    interpretarHojaUPF("alumno.txt", respostes);
+    
     float NF = comparar(correccio, respostes);
     if(PREGUNTES == 10){
         printf("\nNF = %.2f\n", NF);
